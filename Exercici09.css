@@ -1,4 +1,4 @@
-body{background-image: url("Birthday-Cake-.png");}
+body{background-image: url("Birthday-Cake-.png"); background-repeat: repeat-x;}
 /*
 1. El cos de la pàgina tindrà la imatge de fons imatge de fons.png, utilitzarà la font Liberation Sans, si no Arial i si no sans-serif, tindrà l'interlineat del 130% i el color de lletra serà #615041.
 */
