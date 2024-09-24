@@ -1,51 +1,103 @@
 /*
 1. El cos de la pàgina tindrà la imatge de fons imatge de fons.png, utilitzarà la font Liberation Sans, si no Arial i si no sans-serif, tindrà l'interlineat del 130% i el color de lletra serà #615041.
 */
+body {
+  background-image: url(https://images.twinkl.co.uk/tr/image/upload/illustation/Birthday-Cake-.png);
+  font-family: "Liberation Sans", Arial, sans-serif;
+}
 
 /*
 2. Qualsevol div de la pàgina tindrà el fons de color blanc amb una opacitat del 90%.
 */
+div {
+  background-color: #ffffff;
+  opacity: 0.9;
+}
 
 /*
 3. La div amb id capsalera tindrà el text alineat al centre.
 */
+#capsalera {
+  text-align: center;
+}
 
 /*
 4. Els encapçalaments de primer, segon i tercer nivell tindran un espaiat entre lletres de -0.05em, no estaran en negreta, seran de color #FF8A46 i estaran en majúscules.
 */
+h1,
+h2,
+h3 {
+  letter-spacing: -0.05em;
+  font-weight: normal;
+  color: #ff8a46;
+  text-transform: uppercase;
+}
 
 /*
 5. Els elements de llista no ordenada tindran com a vinyeta un quadrat.
 */
+ul li {
+  list-style-type: square;
+}
 
 /*
 6. Els enllaços seran de color #635240 i no estaran subratllats.
 */
+a {
+  color: #635240;
+  text-decoration: none;
+}
 
 /*
 7. Els encapçalaments de primer nivell de la classe titol tindran una mida de 52px i un interlineat del 150%.
 */
+.titol {
+  font-size: 52px;
+  line-height: 150%;
+}
 
 /*
 8. L'encapçalament de tercer nivell amb id macaroon s'alinearà a la dreta.
 */
+#macaroon {
+  text-align: right;
+}
 
 /*
 9. Els paràgrafs de la classe subtitol que estiguin dins de la div amb id capsalera estaran en cursiva.
 */
+#capsalera .subtitol {
+  font-style: italic;
+}
 
 /*
 10. Quan posem el ratolí a sobre dels enllaços que estiguin dins d'un element de llista de dins de la div amb id index es posaran de color blanc, en negreta, tindran la seva font al 150% i tindran com a fons el color #A54440.
 */
+#index ul a:hover {
+  color: white;
+  font-weight: bold;
+  font-size: 150%;
+  background: #a54440;
+}
 
 /*
 11. Els elements de llista que es trobin dins de la div amb id index tindran la imatge boto vermell.png com a vinyeta.
 */
+#index li {
+  list-style-image: url("./buttons/boto\ vermell.png");
+}
 
 /*
 12. Els span que es trobin dins d'un paràgraf de dins de la div amb id continguts tindran el color de fons #EADAC3 i estaran en negreta.
 */
+#continguts p span {
+  background: #eadac3;
+  font-weight: bold;
+}
 
 /*
 13. Quan passem el ratolí per sobre d'un span que estigui dins d'una div es subratllarà.
 */
+div span:hover {
+  text-decoration: underline;
+}
